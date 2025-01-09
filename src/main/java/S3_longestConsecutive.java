@@ -14,6 +14,7 @@ public class S3_longestConsecutive {
             set.add(num);
         }
         int result = 0;
+        //2025-1-8 这里注意，使用set进行遍历!
         for (int num : set) {
             if (!set.contains(num - 1)) {
                 int currentNum = num;
