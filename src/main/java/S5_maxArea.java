@@ -14,7 +14,6 @@ public class S5_maxArea {
                 right++;
             }
         }
-        ByteArrayOutputStream os = new ByteArrayOutputStream();
         return result;
     }
 }
